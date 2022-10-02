@@ -1,0 +1,2 @@
+randomShakeEffect_x=0
+randomShakeEffect_y=0

@@ -1,0 +1,4 @@
+if (isMad)
+{
+	kill(other);
+}

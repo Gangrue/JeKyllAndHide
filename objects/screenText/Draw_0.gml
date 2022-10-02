@@ -1,0 +1,10 @@
+var vx = camera_get_view_x(view_camera[0]);
+var vy = camera_get_view_y(view_camera[0]);
+var vw = camera_get_view_width(view_camera[0])/2;
+var vh = camera_get_view_height(view_camera[0])/2;
+draw_set_font(font_Powerful);
+var old_alpha = draw_get_alpha();
+draw_set_alpha(image_alpha);
+draw_set_color(c_purple);
+draw_text(vx+vw-string_width(text)/2,vy+vh-string_height(text)/2-128,text);
+draw_set_alpha(old_alpha);

@@ -1,0 +1,1 @@
+text = "The true cure was love all along...";

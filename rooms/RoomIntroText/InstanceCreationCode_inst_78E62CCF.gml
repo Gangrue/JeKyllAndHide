@@ -1,0 +1,1 @@
+text = "We're insane. This lab has the only known antidote. We need it."
